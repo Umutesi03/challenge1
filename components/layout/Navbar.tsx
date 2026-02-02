@@ -74,8 +74,8 @@ export default function Navbar() {
         <Image
           src="/logo.png"
           alt="Recipe Logo"
-          width={200}
-          height={100}
+          width={70}
+          height={60}
           className="mx-auto my-4"
         />
         </div>
