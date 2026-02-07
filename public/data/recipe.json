@@ -1,0 +1,88 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Cuisines",
+      "recipes": [
+        {
+          "id": 1,
+          "title": "Thai Basil Tofu Stir Fry",
+          "cuisine": "Thai",
+          "image": "/recipes/thai-basil-tofu.jpg",
+          "rating": 4.5,
+          "prepTime": 30,
+          "servings": 35,
+          "calories": 65,
+          "difficulty": "Super Dry",
+          "badge": "9.2"
+        },
+        {
+          "id": 2,
+          "title": "Kung Pao Shrimp",
+          "cuisine": "Chinese",
+          "image": "/recipes/kung-pao-shrimp.jpg",
+          "rating": 4.5,
+          "prepTime": 30,
+          "servings": 65,
+          "calories": 85,
+          "difficulty": "Super Dry",
+          "badge": "9.2"
+        },
+        {
+          "id": 3,
+          "title": "Mexican Chicken",
+          "cuisine": "Mexican",
+          "image": "/recipes/mexican-chicken.jpg",
+          "rating": 5.0,
+          "prepTime": 40,
+          "servings": 10,
+          "calories": 100,
+          "difficulty": "Super Dry",
+          "badge": "9.5"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Diet",
+      "recipes": [
+        {
+          "id": 4,
+          "title": "Egg White Bites",
+          "category": "Diet",
+          "image": "/recipes/egg-white-bites.jpg",
+          "rating": 4.0,
+          "prepTime": 10,
+          "servings": 30,
+          "calories": 100,
+          "difficulty": "Super Easy",
+          "badge": "9.2"
+        },
+        {
+          "id": 5,
+          "title": "Greek Faro salad",
+          "category": "Diet",
+          "image": "/recipes/greek-faro-salad.jpg",
+          "rating": 5.0,
+          "prepTime": 15,
+          "servings": 40,
+          "calories": 100,
+          "difficulty": "Super Dry",
+          "badge": "9.5"
+        },
+        {
+          "id": 6,
+          "title": "Mediterranean Diet Snack",
+          "category": "Diet",
+          "image": "/recipes/mediterranean-snack.jpg",
+          "rating": 5.0,
+          "prepTime": 10,
+          "servings": 10,
+          "calories": 400,
+          "difficulty": "Super Dry",
+          "badge": "9.2"
+        }
+      ]
+    }
+  ]
+}
