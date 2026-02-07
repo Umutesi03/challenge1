@@ -39,45 +39,45 @@ export default function Navbar() {
     <header className="w-full">
       <nav className="bg-black [&_button]:text-white [&_button:hover]:bg-black [&_button:hover]:text-white">
         <div className="container mx-auto px-4 flex justify-between items-center h-12">
-        <ul className=" hidden md:flex gap-4">
-          <li>
-            <Button variant="link">COMMUNITY</Button>
-          </li>
-          <li>
-            <Button variant="link">BOOKS</Button>
-          </li>
-          <li>
-            <Button variant="link">RECIPE INDEX</Button>
-          </li>
-          <li>
-            <Button variant="link">POPULAR</Button>
-          </li>
-        </ul>
-        <ul className="flex gap-2 md:gap-4 [&_svg]:text-[#509E2F] position-right-0">
-          <li>
-            <Button variant="ghost">
-              <ArrowRightToLine />
-              Register
-            </Button>
-          </li>
-          <li>
-            <Button variant="ghost">
-              <User />
-              Login
-            </Button>
-          </li>
-        </ul>
+          <ul className=" hidden md:flex gap-4">
+            <li>
+              <Button variant="link">COMMUNITY</Button>
+            </li>
+            <li>
+              <Button variant="link">BOOKS</Button>
+            </li>
+            <li>
+              <Button variant="link">RECIPE INDEX</Button>
+            </li>
+            <li>
+              <Button variant="link">POPULAR</Button>
+            </li>
+          </ul>
+          <ul className="flex gap-2 md:gap-4 [&_svg]:text-[#509E2F] position-right-0">
+            <li>
+              <Button variant="ghost">
+                <ArrowRightToLine />
+                Register
+              </Button>
+            </li>
+            <li>
+              <Button variant="ghost">
+                <User />
+                Login
+              </Button>
+            </li>
+          </ul>
         </div>
       </nav>
       <div className="flex  flex-col lg:flex-row gap-4 lg:gap-8 justify-between items-center">
         <div>
-        <Image
-          src="/logo.png"
-          alt="Recipe Logo"
-          width={70}
-          height={60}
-          className="mx-auto my-4"
-        />
+          <Image
+            src="/logo.png"
+            alt="Recipe Logo"
+            width={70}
+            height={60}
+            className="mx-auto my-4"
+          />
         </div>
         <div className="flex justify-between items-center">
           <Select>
@@ -113,10 +113,7 @@ export default function Navbar() {
             <DropdownMenuTrigger asChild>
               <Button variant="ghost" size="icon" className="rounded-full">
                 <Avatar>
-                  <AvatarImage
-                    src="profile.png"
-                    alt="shadcn"
-                  />
+                  <AvatarImage src="profile.png" alt="shadcn" />
                   <AvatarFallback>LR</AvatarFallback>
                 </Avatar>
               </Button>
